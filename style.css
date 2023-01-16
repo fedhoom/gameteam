@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+}
+
+.menu {
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu-logo {
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.menu-nav a {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.menu-cont {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav {
+    margin-left: auto;
+
+}
+
+.menu-logo p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 80vh;
+    background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg");
+}
+
+.header-title {
+    margin: 0;
+    font-size: 100px;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.header-text {
+    font-size: 50px;
+}
+
+.header-btn {
+    width: fit-content;
+    display: block;
+    background: linear-gradient(90deg, #05FFDC, #0A85E6);
+    padding: 30px 60px;
+    color: #fff;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.header-content {
+    padding-left: 15px;
+}
+
+.header-btn:hover {
+    background: black;
+    transform: scale(0.9);
+}
+
+.icons {
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.icons-pic {
+    font-size: 100px;
+    margin: 0;
+}
+
+.icons-card {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.icons-text {
+    color: #fff;
+    font-size: 25px;
+}
+
+.games {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 30px;
+    margin-top: 60px;
+}
+
+.games-title {
+    color: #0A85E6;
+    padding: 50px 0;
+}
+
+.menu-nav-hover {
+    background-color: #0a85e6;
+    transform: scale(0.9);
+}
+
+.gemas-game {
+    display: flex;
+}
+
+.game-desc {
+    text-align: left;
+    padding: 20px;
+}
+
+.game-title {
+    color: #0A85E6;
+    text-align: left;
+    font-size: 30px;
+}
+
+.game-text {
+    color: white;
+}
+
+.game-img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    min-width: 500px;
+}
+
+.game-line {
+    margin-left: 0;
+    width: 150px;
+}
+
+.descr {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.descr-title {
+    color: #0A85E6;
+    margin-top: 70px;
+}
+
+.descr-text {
+    color: white;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+.connect {}
+
+.connect-title {
+    color: #0A85E6;
+    text-align: center;
+    font-size: 22px;
+}
+
+.connect-line {
+    margin: auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.connect-card {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 30px;
+    padding: 30px;
+}
+
+.connect-link {
+    background-color: #369eee;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.connect-text {
+    font-size: 35px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.connect-btn {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    padding: 10px 20px;
+    transition: 1.0s;
+}
+
+.connect-btn:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.0);
+    color: #222;
+}
+
+@media (max-width:1030px) {
+    .header {
+        height: auto;
+        padding-bottom: 100px;
+        background-position: right;
+    }
+
+    .header-title {
+        font-size: 70px;
+    }
+
+    .menu-cont {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+}
+
+@media (max-width : 690px) {
+    .gemas-game {
+        flex-direction: column;
+    }
+
+    .flip {
+        flex-direction: column-reverse;
+    }
+
+    .game-img {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .header-title {
+        font-size: 50px;
+    }
+.header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg"),linear-gradient(#e6e1d9, #e6e1d9);
+    background-position: bottom;
+}
+.icons-pic{
+    font-size: 30px;
+}
+.icons-text{
+    font-size: 18px;
+}
+
+
+}
+@media (max-width :450px) {
+    .header-title {
+        font-size: 35px;
+    }  
+  .icons-card  {
+    width: 48%;
+  }
+   .menu-cont{
+    flex-direction: column;
+   } 
+   .menu-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   }
+}
