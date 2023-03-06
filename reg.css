@@ -1,0 +1,87 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+.reg{
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+
+}
+.reg-header{
+    background-color: rgb(61, 149, 231);
+    position: relative;
+}
+.reg-title {
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+.reg-button{
+position: absolute;
+height: 100%;
+background: white;
+width: 90px;
+text-align:center ;
+padding-top: 30px;
+font-size: 20px;
+text-decoration: none;
+color: #000;
+font-weight: 900;
+}
+.reg-form{
+    padding: 25px;
+}
+.form-field {
+    color: white;
+    padding: 30px;
+}
+.inputs {
+}
+.form-input {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background: none; 
+border: none;
+border-bottom: 1px solid white;
+padding: 8px;
+}
+.input-container {
+    color: white;
+    font-size: 20px;
+}
+.age-container {
+    margin-top: 20px;
+}.select-container {
+    margin-top: 30px;
+}
+.form-textarea {
+    resize: none;
+    width: 100%;
+    background: none;
+    margin-top: 30px;
+    padding: 15px;
+}
+.form-button {
+background: linear-gradient( to left,#8360c3,#2ebf91);
+padding: 20px 40px;
+font-size: 20px;
+margin: auto;
+margin-top: 40px;
+display: block;
+border: none;
+}
+@media (max-width:600px) {
+    .reg-title{
+        font-size: 16px;
+        text-align: right;
+        padding-right: 30px;
+    }
+}
